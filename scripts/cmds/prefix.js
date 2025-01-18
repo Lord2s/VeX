@@ -101,7 +101,7 @@ module.exports = {
       body: getLang("myPrefix", global.GoatBot.config.prefix, utils.getPrefix(event.threadID)),
       attachment: await global.utils.getStreamFromURL("https://i.imgur.com/cdgSrOv.jpeg")
         };
-    if (event.body && event.body.toLowerCase() === "prefix","jay","bot")
+    if (event.body && event.body.toLowerCase() === "prefix")
       return () => {
         return message.reply(xyrene);
       };
